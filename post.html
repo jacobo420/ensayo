@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Artículo | El Lado Extracultural</title>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="logo">
+      <span class="logo-mark"><i class="fa-solid fa-bolt"></i></span>
+      El Lado <span class="gradient-text">Extracultural</span>
+    </a>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html" data-page="index.html">Inicio</a></li>
+      <li><a href="blog.html" data-page="blog.html">Blog</a></li>
+      <li><a href="index.html#sobre">Sobre el canal</a></li>
+      <li><a href="index.html#categorias">Categorías</a></li>
+      <li><a href="index.html#contacto">Contacto</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <a href="https://www.tiktok.com/@ellladoextracultural" target="_blank" rel="noopener" class="icon-btn" title="Síguenos en TikTok">
+        <i class="fa-brands fa-tiktok"></i>
+      </a>
+      <button class="btn btn-primary btn-sm" id="open-login-btn">Iniciar sesión</button>
+      <div class="user-chip hidden" id="user-chip">
+        <span class="avatar"><i class="fa-solid fa-user"></i></span>
+        <span id="user-name">Usuario</span>
+        <button class="icon-btn" id="logout-btn" title="Cerrar sesión" style="width:26px;height:26px;">
+          <i class="fa-solid fa-right-from-bracket" style="font-size:0.75rem;"></i>
+        </button>
+      </div>
+      <button class="menu-toggle" id="menu-toggle"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </nav>
+</header>
+
+<!-- ===================== ARTÍCULO ===================== -->
+<section class="article-hero" id="article-container">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Inicio</a> / <a href="blog.html">Blog</a> / <span id="article-category">Categoría</span>
+    </div>
+    <div class="article-header">
+      <h1 id="article-title">Cargando artículo...</h1>
+      <div class="article-meta">
+        <span><i class="fa-regular fa-calendar"></i> <span id="article-date"></span></span>
+        <span><i class="fa-regular fa-clock"></i> <span id="article-readtime"></span></span>
+        <span><i class="fa-solid fa-user"></i> El Lado Extracultural</span>
+      </div>
+    </div>
+    <div class="article-cover">
+      <img id="article-cover" src="" alt="" />
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="container">
+    <div class="article-body">
+      <div class="article-content" id="article-content"></div>
+
+      <aside>
+        <div class="sidebar-box">
+          <h4><i class="fa-solid fa-layer-group"></i> Artículos relacionados</h4>
+          <div id="related-posts"></div>
+        </div>
+        <div class="sidebar-box">
+          <h4><i class="fa-brands fa-tiktok"></i> Síguenos</h4>
+          <p style="color:var(--text-muted); font-size:0.88rem; margin-bottom:16px;">No te pierdas los videos que inspiraron este artículo.</p>
+          <a href="https://www.tiktok.com/@ellladoextracultural" target="_blank" rel="noopener" class="btn btn-primary btn-block">Ver en TikTok</a>
+        </div>
+      </aside>
+    </div>
+
+    <div class="tag-row">
+      <span class="tag-pill">#culturaunderground</span>
+      <span class="tag-pill">#tiktokcultura</span>
+      <span class="tag-pill">#extracultural</span>
+    </div>
+
+    <div class="share-row">
+      <span style="color:var(--text-muted); font-size:0.88rem; font-weight:600;">Compartir:</span>
+      <a href="#" class="icon-btn"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="#" class="icon-btn"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#" class="icon-btn"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo"><span class="logo-mark"><i class="fa-solid fa-bolt"></i></span>El Lado Extracultural</a>
+        <p>Explorando la cultura desde su lado menos obvio. Contenido cultural con contexto, directo desde TikTok a tu pantalla.</p>
+        <div class="social-row">
+          <a href="https://www.tiktok.com/@ellladoextracultural" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="index.html#sobre">Sobre el canal</a></li>
+          <li><a href="index.html#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Categorías</h4>
+        <ul>
+          <li><a href="blog.html">Tendencias Virales</a></li>
+          <li><a href="blog.html">Arte Urbano</a></li>
+          <li><a href="blog.html">Música</a></li>
+          <li><a href="blog.html">Historia Oculta</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Cuenta</h4>
+        <ul>
+          <li><a href="#" id="footer-login">Iniciar sesión</a></li>
+          <li><a href="#" data-open-register>Registrarme</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 El Lado Extracultural. Todos los derechos reservados.</span>
+      <span>Hecho con <i class="fa-solid fa-heart" style="color:var(--accent1);"></i> para la comunidad extracultural.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===================== MODAL LOGIN / REGISTRO ===================== -->
+<div class="modal-overlay" id="auth-modal">
+  <div class="modal-box">
+    <button class="modal-close" id="close-modal-btn"><i class="fa-solid fa-xmark"></i></button>
+    <h2>Bienvenido/a</h2>
+    <p class="modal-sub">Accede a tu cuenta de El Lado Extracultural</p>
+
+    <div class="tabs">
+      <button class="tab-btn active" id="tab-login">Iniciar sesión</button>
+      <button class="tab-btn" id="tab-register">Registrarse</button>
+    </div>
+
+    <form class="auth-form" id="login-form">
+      <div>
+        <label class="field-label">Correo electrónico</label>
+        <input type="email" id="login-email" placeholder="tu@correo.com" required />
+      </div>
+      <div>
+        <label class="field-label">Contraseña</label>
+        <input type="password" id="login-password" placeholder="••••••••" required />
+      </div>
+      <p class="form-error" id="login-error"></p>
+      <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+      <p class="auth-switch">¿No tienes cuenta? <a href="#" data-open-register>Regístrate aquí</a></p>
+    </form>
+
+    <form class="auth-form hidden" id="register-form">
+      <div>
+        <label class="field-label">Nombre completo</label>
+        <input type="text" id="register-name" placeholder="Tu nombre" required />
+      </div>
+      <div>
+        <label class="field-label">Correo electrónico</label>
+        <input type="email" id="register-email" placeholder="tu@correo.com" required />
+      </div>
+      <div>
+        <label class="field-label">Contraseña</label>
+        <input type="password" id="register-password" placeholder="Mínimo 6 caracteres" required />
+      </div>
+      <p class="form-error" id="register-error"></p>
+      <button type="submit" class="btn btn-primary btn-block">Crear cuenta</button>
+    </form>
+  </div>
+</div>
+
+<button class="back-to-top" id="back-to-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="js/posts.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.getElementById("footer-login")?.addEventListener("click", (e) => {
+    e.preventDefault();
+    window.openAuthModal?.("login");
+  });
+</script>
+</body>
+</html>
